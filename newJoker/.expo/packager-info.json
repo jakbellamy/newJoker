@@ -1,0 +1,9 @@
+{
+  "devToolsPort": 19002,
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 38000,
+  "expoServerNgrokUrl": "https://fe-4ma.anonymous.newjoker.exp.direct",
+  "packagerNgrokUrl": "https://packager.fe-4ma.anonymous.newjoker.exp.direct",
+  "ngrokPid": 38021
+}
