@@ -1,19 +1,16 @@
 {
-<<<<<<< HEAD
-  "name": "new_joker_server",
-=======
   "name": "server",
->>>>>>> f3da0bd443545dd9cb74d432746d833a499ef50c
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-<<<<<<< HEAD
-=======
-  "keywords": [],
->>>>>>> f3da0bd443545dd9cb74d432746d833a499ef50c
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
 }

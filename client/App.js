@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
-import { Platform, StyleSheet, Text, View } from 'react-native';
-import {styles} from './styles.js';
+import { Platform, StyleSheet, Text, View, StatusBar } from 'react-native';
+import {appStyles} from './appStyles.js';
+import Head from './src/headers/Header.js';
+import Navbar from './src/headers/Navbar.js';
+import {PreAuthContainer, PostAuthContainer} from './navigator.js'
 
 export default class App extends Component {
+  state = {
+    auth: false
+  }
   render() {
     return (
-      <View style={styles.titleDiv}>
-        <Text style={styles.title}>The New Joker</Text>
-        <Text style={styles.about}>A New Yorker Capiton Contest Game For Tweeters</Text>
-      </View>
-    );
+      <>
+        <Head/>
+        {this.state.auth ? <PostAuthContainer/> : <PreAuthContainer/>}
+      </>
+    )
   }
 }
-
