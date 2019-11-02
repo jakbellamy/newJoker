@@ -3,8 +3,8 @@ import { Platform, StyleSheet, Text, View, StatusBar } from 'react-native';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
 import { createAppContainer } from 'react-navigation';
 import Home from './src/Home.js'
-import Login from './src/Login.js'
-import Signup from './src/Signup.js'
+import Login from './src/authentication/Login.js'
+import Signup from './src/authentication/Signup.js'
 
 const preAuthNavigator = createBottomTabNavigator(
   {

@@ -12,6 +12,7 @@ export default class App extends Component {
   render() {
     return (
       <>
+        <StatusBar hidden={true}/>
         <Head/>
         {this.state.auth ? <PostAuthContainer/> : <PreAuthContainer/>}
       </>
