@@ -7,7 +7,7 @@ import {PreAuthContainer, PostAuthContainer} from './navigator.js'
 
 export default class App extends Component {
   state = {
-    auth: false
+    auth: true
   }
   render() {
     return (
